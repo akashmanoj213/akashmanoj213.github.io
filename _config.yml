@@ -32,7 +32,6 @@ search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
 
 # Social Sharing
 twitter:
@@ -53,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          : # Replace this with your ID, or delete
+    tracking_id          : UA-145672191-1
     anonymize_ip         : true
 
 
@@ -141,23 +140,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
-# Collections
-# collections:
-#   docs:
-#     output: true
-#     permalink: /:collection/:path/
-#   recipes:
-#     output: true
-#     permalink: /:collection/:path/
-#   pets:
-#     output: true
-#     permalink: /:collection/:path/
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
